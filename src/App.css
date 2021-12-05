@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+body{
+  font-family: 'Prompt', sans-serif;
+  display:flex;
+  justify-content: center;
+  height:100vh;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+.on {
+  color: #ffa500
+}
+.off {
+  color: #ccc;
+}
+
+.star{
+  font-size: 4rem;
+}
+
+.star-rating{
+  border:10px solid grey;
+  padding:2rem;
+  text-align: center;
+}
+
+.thanks{
+  color:#020258;
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: center;
+}
