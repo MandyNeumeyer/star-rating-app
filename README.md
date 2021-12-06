@@ -21,7 +21,7 @@ As a guidline, how the finished product could be looking, use the picture as a r
 ---
 ## hint
 
-- To display your stars you can use the `<FaStar/>` from React icons `npm i react-icons`- is already included in this project after `npm install`. (Have a look in your `package.json` file under dependencies.)
+- To display your stars you could use the `<FaStar/>` from React icons. The npm package React icons has already been included in this project. (Have a look in your `package.json` file under dependencies.)
 
 ```javascript
 //import the icon into your component
