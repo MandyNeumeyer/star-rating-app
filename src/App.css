@@ -65,9 +65,6 @@ h2{
   font-weight: 700;
   margin-top: 0;
   color: #aaa9a9;
-  /* text-decoration: underline;
-  text-decoration-color:#f7c05c;
-  text-decoration-thickness:0.5rem; */
   border-bottom: 0.5rem double #f7c05c;
   padding-bottom: 0.3rem;
 }
