@@ -1,4 +1,4 @@
-# Create a star rating app :star::star::star::star::star:
+# Create a star rating widget :star::star::star::star::star:
 
 **The rating widget should give the user the option to give a rating from 1 to 5.**
 
