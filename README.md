@@ -11,7 +11,7 @@ As a guidline, how the finished product could be looking, use the picture as a r
 
 ## Overview
 
-- Set up your app into components.
+- Split your app up into components.
 - Produce 5 icons.
 - To manage your state use the `useState` Hook from React.
 - When you hover over the icons, it should give you a preview of how the icons might look.
