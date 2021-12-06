@@ -4,11 +4,19 @@ body{
   font-family: 'Prompt', sans-serif;
   display:flex;
   justify-content: center;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  width:100vw;
   height:100vh;
+  color:rgb(68, 67, 67);
+  background: #FFEFBA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 button {
-  background-color: transparent;
+  background-color:transparent;
   border: none;
   outline: none;
   cursor: pointer;
@@ -25,15 +33,27 @@ button {
   font-size: 4rem;
 }
 
+.heading{
+  margin:6rem 0;
+}
+
 .star-rating{
-  border:10px solid grey;
+  border:8px solid #949393;
   padding:2rem;
   text-align: center;
+  width:28rem;
 }
 
 .thanks{
-  color:#020258;
+  color:#024758;
   font-weight: 900;
   font-size: 1rem;
-  text-align: center;
 }
+
+.Footer{
+  height:5vh;
+  position: fixed;
+  bottom: 0;
+  left:4rem;
+}
+

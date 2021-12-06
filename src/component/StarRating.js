@@ -10,14 +10,13 @@ const StarRating = () => {
         <>
             <div className="star-rating">
                 {starArray.map((star, index) => {
-                    index += 1;
                     return (
                         <button
                             type="button"
                             key={index}
-                            className={index <= (hover || rating) ? "on" : "off"}
-                            onClick={() => setRating(index)}
-                            onMouseEnter={() => setHover(index)}
+                            className={(hover || rating)>index ? "on" : "off"}
+                            onClick={() => setRating(index+1)}
+                            onMouseEnter={() => setHover(index+1)}
                             onMouseLeave={() => setHover(rating)}
                         >
 
