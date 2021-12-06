@@ -20,12 +20,12 @@ const StarRating = () => {
                             onMouseLeave={() => setHover(rating)}
                         >
 
-                            <FaStar size={70} />
+                            <FaStar size={80} />
                         </button>
                     );
                 })}
             </div>
-            <h2>Your rating is: {rating > 0 ? rating : ""}</h2>
+            <h2>Your rating is: {rating > 0 ? rating : " "}</h2>
             <h5 className="thanks">{rating > 0? "Thanks for your participation!": ""} </h5>
         </>
     )
