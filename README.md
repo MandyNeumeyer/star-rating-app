@@ -6,11 +6,11 @@
 
 As a guidline, how the finished product could be looking, please use the picture as a refernce. 
 
-- split your app into components
-- produce 5 icons
-- to manage your state use the useState Hook from React
-- when you hover over the icons, it should give you a preview of how the icons might look.
-- the preview should only be temporary, once the user moves the mouse away from the widget, the original state should be rendered.
+- Split your app into components.
+- Produce 5 icons.
+- To manage your state import the useState Hook from React.
+- When you hover over the icons, it should give you a preview of how the icons might look.
+- The preview should only be temporary, once the user moves the mouse away from the widget, the original state should be rendered.
 - The click event should call a handler function, which should change the state - and change the rendered output
 
 ## hint
