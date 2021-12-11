@@ -1,7 +1,7 @@
 import StarRating from "./component/StarRating.js";
 import Header from './component/Header.js'
 import Footer from './component/Footer.js'
-import "./App.css";
+import "./index.css";
 
 const App = () => {
   return (
