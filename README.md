@@ -11,12 +11,12 @@ As a guidline, how the finished product could be looking, use the picture as a r
 
 ## 🏋️‍♀️ Exercise
 
-:black_circle: Split your app up into components.\
-:black_circle: Produce 5 icons.\
-:black_circle: To manage your state use the `useState` Hook from React.\
-:black_circle: When you hover over the icons, it should give you a preview of how the icons might look.\
-:black_circle: The preview should only be temporary, once the user moves the mouse away from the widget, the original state should be rendered.\
-:black_circle: The click event should call a handler function, which should change the state - and change the rendered output.
+:black_circle:  Split your app up into components.\
+:black_circle:  Produce 5 icons.\
+:black_circle:  To manage your state use the `useState` Hook from React.\
+:black_circle:  When you hover over the icons, it should give you a preview of how the icons might look.\
+:black_circle:  The preview should only be temporary, once the user moves the mouse away from the widget, the original state should be rendered.\
+:black_circle:  The click event should call a handler function, which should change the state - and change the rendered output.
 
 ---
 ## :eye_speech_bubble: hint
