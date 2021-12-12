@@ -19,7 +19,7 @@ As a guidline, how the finished product could be looking, use the picture as a r
 - The click event should call a handler function, which should change the state - and change the rendered output.
 
 ---
-## :eye_speech_bubble: hint
+## :eye_speech_bubble: Hint
 
 - To display your stars you could use the `<FaStar/>` from React icons. The npm package React icons has already been included in this project. (Have a look in your `package.json` file under dependencies.)
 
