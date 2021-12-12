@@ -9,7 +9,7 @@ As a guidline, how the finished product could be looking, use the picture as a r
 
 ---
 
-## Overview
+## 🏋️‍♀️ Exercise
 
 - Split your app up into components.
 - Produce 5 icons.
