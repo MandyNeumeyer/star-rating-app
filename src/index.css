@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
 
+
 body{
   font-family: 'Prompt', sans-serif;
   display:flex;
@@ -11,13 +12,9 @@ body{
   width:100vw;
   height:100vh;
   color:#ccc;
-  background: #3C3B3F;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.heading{
-  color:#ffa500;
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .App{
@@ -26,6 +23,12 @@ body{
   flex-direction:column ;
   justify-content: center;
   align-items: center;
+}
+
+.heading{
+  color:#ffa500;
+  margin:7rem 0 2rem 0;
+  font-size: 2.3rem;
 }
 
 button {
@@ -44,10 +47,6 @@ button {
 
 .star{
   font-size: 4rem;
-}
-
-.heading{
-  margin:6rem 0;
 }
 
 .star-rating{

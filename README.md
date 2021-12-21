@@ -3,7 +3,7 @@
 **The rating widget should give the user the option to give a rating from 1 to 5.**
 
 ---
-![](rating-widget.gif)
+![](rating.gif)
 
 As a guidline, how the finished product could be looking, use the picture as a refernce. 
 
