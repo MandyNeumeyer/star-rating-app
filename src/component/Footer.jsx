@@ -1,4 +1,3 @@
-import React from 'react'
 
 const dateCurr = new Date();
 const year = dateCurr.getFullYear()

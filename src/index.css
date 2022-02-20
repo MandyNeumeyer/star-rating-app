@@ -38,11 +38,17 @@ button {
   cursor: pointer;
   text-align: center;
 }
+
 .on {
   color: #f7c05c;
 }
+
 .off {
   color: #ccc;
+}
+
+.ratingNum{
+  color: #f7c05c;
 }
 
 .star{
@@ -55,6 +61,7 @@ button {
   text-align: center;
   width:30rem;
 }
+
 h2{
   margin-bottom: 0;
   font-weight: 900;

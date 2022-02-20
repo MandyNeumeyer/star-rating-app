@@ -25,7 +25,7 @@ const StarRating = () => {
                     );
                 })}
             </div>
-            <h2>Your rating is: {rating > 0 ? rating : "?"}</h2>
+            <h2>Your rating is: <span className="ratingNum">{rating > 0 ? rating : "?"}</span></h2>
             <h5 className="thanks">{rating > 0? "Thanks for your participation!": ""} </h5>
         </>
     )
